@@ -1,0 +1,19 @@
+.earn-eth-passively-video {
+    align-self: center;
+    width: 100%;
+    max-width: 364px;
+    height: auto;
+    object-fit: cover;
+    object-position: center center;
+
+    @media (min-width: 852px) {
+        max-width: 415px;
+    }
+
+    @media (min-width: 1080px) {
+        align-self: flex-end;
+        max-width: none;
+        width: auto;
+        height: 221px;
+    }
+}
